@@ -1,0 +1,20 @@
+C:\James Stuff\VS2013 VERSION\UpdateNIID.Data\obj\Debug\UpdateNIID.Data.csprojResolveAssemblyReference.cache
+C:\James Stuff\VS2013 VERSION\UpdateNIID.Data\bin\Debug\UpdateNIID.Data.dll
+C:\James Stuff\VS2013 VERSION\UpdateNIID.Data\bin\Debug\UpdateNIID.Data.pdb
+C:\James Stuff\VS2013 VERSION\UpdateNIID.Data\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\James Stuff\VS2013 VERSION\UpdateNIID.Data\bin\Debug\NHibernate.dll
+C:\James Stuff\VS2013 VERSION\UpdateNIID.Data\bin\Debug\UpdateNIID.Model.dll
+C:\James Stuff\VS2013 VERSION\UpdateNIID.Data\bin\Debug\UpdateNIID.Repositories.dll
+C:\James Stuff\VS2013 VERSION\UpdateNIID.Data\bin\Debug\UpdateNIID.Model.pdb
+C:\James Stuff\VS2013 VERSION\UpdateNIID.Data\bin\Debug\UpdateNIID.Repositories.pdb
+C:\James Stuff\VS2013 VERSION\UpdateNIID.Data\obj\Debug\UpdateNIID.Data.dll
+C:\James Stuff\VS2013 VERSION\UpdateNIID.Data\obj\Debug\UpdateNIID.Data.pdb
+C:\AFRIK\UpdateMTRegistry\UpdateNIID.Data\bin\Debug\UpdateNIID.Data.dll
+C:\AFRIK\UpdateMTRegistry\UpdateNIID.Data\bin\Debug\UpdateNIID.Data.pdb
+C:\AFRIK\UpdateMTRegistry\UpdateNIID.Data\bin\Debug\UpdateNIID.Model.dll
+C:\AFRIK\UpdateMTRegistry\UpdateNIID.Data\bin\Debug\UpdateNIID.Repositories.dll
+C:\AFRIK\UpdateMTRegistry\UpdateNIID.Data\bin\Debug\UpdateNIID.Model.pdb
+C:\AFRIK\UpdateMTRegistry\UpdateNIID.Data\bin\Debug\UpdateNIID.Repositories.pdb
+C:\AFRIK\UpdateMTRegistry\UpdateNIID.Data\obj\Debug\UpdateNIID.Data.csprojResolveAssemblyReference.cache
+C:\AFRIK\UpdateMTRegistry\UpdateNIID.Data\obj\Debug\UpdateNIID.Data.dll
+C:\AFRIK\UpdateMTRegistry\UpdateNIID.Data\obj\Debug\UpdateNIID.Data.pdb

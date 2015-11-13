@@ -1,0 +1,46 @@
+C:\James Stuff\VS2013 VERSION\UpdateNIID.Web\bin\UpdateNIID.Web.dll.config
+C:\James Stuff\VS2013 VERSION\UpdateNIID.Web\bin\UpdateNIID.Web.dll
+C:\James Stuff\VS2013 VERSION\UpdateNIID.Web\bin\UpdateNIID.Web.pdb
+C:\James Stuff\VS2013 VERSION\UpdateNIID.Web\obj\Debug\UpdateNIID.Web.csprojResolveAssemblyReference.cache
+C:\James Stuff\VS2013 VERSION\UpdateNIID.Web\obj\Debug\UpdateNIID.Web.dll
+C:\James Stuff\VS2013 VERSION\UpdateNIID.Web\obj\Debug\UpdateNIID.Web.pdb
+C:\James Stuff\VS2013 VERSION\UpdateNIID.Web\bin\Antlr3.Runtime.dll
+C:\James Stuff\VS2013 VERSION\UpdateNIID.Web\bin\Castle.Core.dll
+C:\James Stuff\VS2013 VERSION\UpdateNIID.Web\bin\Castle.DynamicProxy2.dll
+C:\James Stuff\VS2013 VERSION\UpdateNIID.Web\bin\Iesi.Collections.dll
+C:\James Stuff\VS2013 VERSION\UpdateNIID.Web\bin\log4net.dll
+C:\James Stuff\VS2013 VERSION\UpdateNIID.Web\bin\NHibernate.ByteCode.Castle.dll
+C:\James Stuff\VS2013 VERSION\UpdateNIID.Web\bin\UpdateNIID.Data.dll
+C:\James Stuff\VS2013 VERSION\UpdateNIID.Web\bin\UpdateNIID.Model.dll
+C:\James Stuff\VS2013 VERSION\UpdateNIID.Web\bin\UpdateNIID.Repositories.dll
+C:\James Stuff\VS2013 VERSION\UpdateNIID.Web\bin\UpdateNIID.Data.pdb
+C:\James Stuff\VS2013 VERSION\UpdateNIID.Web\bin\UpdateNIID.Model.pdb
+C:\James Stuff\VS2013 VERSION\UpdateNIID.Web\bin\UpdateNIID.Repositories.pdb
+C:\James Stuff\VS2013 VERSION\UpdateNIID.Web\bin\Castle.Core.xml
+C:\James Stuff\VS2013 VERSION\UpdateNIID.Web\bin\Castle.DynamicProxy2.xml
+C:\James Stuff\VS2013 VERSION\UpdateNIID.Web\bin\Iesi.Collections.xml
+C:\James Stuff\VS2013 VERSION\UpdateNIID.Web\bin\log4net.xml
+C:\James Stuff\VS2013 VERSION\UpdateNIID.Web\bin\NHibernate.ByteCode.Castle.xml
+C:\AFRIK\UpdateMTRegistry\UpdateNIID.Web\bin\UpdateNIID.Web.dll.config
+C:\AFRIK\UpdateMTRegistry\UpdateNIID.Web\bin\UpdateNIID.Web.dll
+C:\AFRIK\UpdateMTRegistry\UpdateNIID.Web\bin\UpdateNIID.Web.pdb
+C:\AFRIK\UpdateMTRegistry\UpdateNIID.Web\bin\Antlr3.Runtime.dll
+C:\AFRIK\UpdateMTRegistry\UpdateNIID.Web\bin\Castle.Core.dll
+C:\AFRIK\UpdateMTRegistry\UpdateNIID.Web\bin\Castle.DynamicProxy2.dll
+C:\AFRIK\UpdateMTRegistry\UpdateNIID.Web\bin\Iesi.Collections.dll
+C:\AFRIK\UpdateMTRegistry\UpdateNIID.Web\bin\log4net.dll
+C:\AFRIK\UpdateMTRegistry\UpdateNIID.Web\bin\NHibernate.ByteCode.Castle.dll
+C:\AFRIK\UpdateMTRegistry\UpdateNIID.Web\bin\UpdateNIID.Data.dll
+C:\AFRIK\UpdateMTRegistry\UpdateNIID.Web\bin\UpdateNIID.Model.dll
+C:\AFRIK\UpdateMTRegistry\UpdateNIID.Web\bin\UpdateNIID.Repositories.dll
+C:\AFRIK\UpdateMTRegistry\UpdateNIID.Web\bin\UpdateNIID.Data.pdb
+C:\AFRIK\UpdateMTRegistry\UpdateNIID.Web\bin\UpdateNIID.Model.pdb
+C:\AFRIK\UpdateMTRegistry\UpdateNIID.Web\bin\UpdateNIID.Repositories.pdb
+C:\AFRIK\UpdateMTRegistry\UpdateNIID.Web\bin\Castle.Core.xml
+C:\AFRIK\UpdateMTRegistry\UpdateNIID.Web\bin\Castle.DynamicProxy2.xml
+C:\AFRIK\UpdateMTRegistry\UpdateNIID.Web\bin\Iesi.Collections.xml
+C:\AFRIK\UpdateMTRegistry\UpdateNIID.Web\bin\log4net.xml
+C:\AFRIK\UpdateMTRegistry\UpdateNIID.Web\bin\NHibernate.ByteCode.Castle.xml
+C:\AFRIK\UpdateMTRegistry\UpdateNIID.Web\obj\Debug\UpdateNIID.Web.csprojResolveAssemblyReference.cache
+C:\AFRIK\UpdateMTRegistry\UpdateNIID.Web\obj\Debug\UpdateNIID.Web.dll
+C:\AFRIK\UpdateMTRegistry\UpdateNIID.Web\obj\Debug\UpdateNIID.Web.pdb

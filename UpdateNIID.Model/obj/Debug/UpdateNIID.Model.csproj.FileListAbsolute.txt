@@ -1,0 +1,8 @@
+C:\James Stuff\VS2013 VERSION\UpdateNIID.Model\bin\Debug\UpdateNIID.Model.dll
+C:\James Stuff\VS2013 VERSION\UpdateNIID.Model\bin\Debug\UpdateNIID.Model.pdb
+C:\James Stuff\VS2013 VERSION\UpdateNIID.Model\obj\Debug\UpdateNIID.Model.dll
+C:\James Stuff\VS2013 VERSION\UpdateNIID.Model\obj\Debug\UpdateNIID.Model.pdb
+C:\AFRIK\UpdateMTRegistry\UpdateNIID.Model\bin\Debug\UpdateNIID.Model.dll
+C:\AFRIK\UpdateMTRegistry\UpdateNIID.Model\bin\Debug\UpdateNIID.Model.pdb
+C:\AFRIK\UpdateMTRegistry\UpdateNIID.Model\obj\Debug\UpdateNIID.Model.dll
+C:\AFRIK\UpdateMTRegistry\UpdateNIID.Model\obj\Debug\UpdateNIID.Model.pdb

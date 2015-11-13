@@ -1,0 +1,14 @@
+C:\James Stuff\VS2013 VERSION\UpdateNIID.Repositories\obj\Debug\UpdateNIID.Repositories.csprojResolveAssemblyReference.cache
+C:\James Stuff\VS2013 VERSION\UpdateNIID.Repositories\bin\Debug\UpdateNIID.Repositories.dll
+C:\James Stuff\VS2013 VERSION\UpdateNIID.Repositories\bin\Debug\UpdateNIID.Repositories.pdb
+C:\James Stuff\VS2013 VERSION\UpdateNIID.Repositories\bin\Debug\UpdateNIID.Model.dll
+C:\James Stuff\VS2013 VERSION\UpdateNIID.Repositories\bin\Debug\UpdateNIID.Model.pdb
+C:\James Stuff\VS2013 VERSION\UpdateNIID.Repositories\obj\Debug\UpdateNIID.Repositories.dll
+C:\James Stuff\VS2013 VERSION\UpdateNIID.Repositories\obj\Debug\UpdateNIID.Repositories.pdb
+C:\AFRIK\UpdateMTRegistry\UpdateNIID.Repositories\bin\Debug\UpdateNIID.Repositories.dll
+C:\AFRIK\UpdateMTRegistry\UpdateNIID.Repositories\bin\Debug\UpdateNIID.Repositories.pdb
+C:\AFRIK\UpdateMTRegistry\UpdateNIID.Repositories\bin\Debug\UpdateNIID.Model.dll
+C:\AFRIK\UpdateMTRegistry\UpdateNIID.Repositories\bin\Debug\UpdateNIID.Model.pdb
+C:\AFRIK\UpdateMTRegistry\UpdateNIID.Repositories\obj\Debug\UpdateNIID.Repositories.csprojResolveAssemblyReference.cache
+C:\AFRIK\UpdateMTRegistry\UpdateNIID.Repositories\obj\Debug\UpdateNIID.Repositories.dll
+C:\AFRIK\UpdateMTRegistry\UpdateNIID.Repositories\obj\Debug\UpdateNIID.Repositories.pdb

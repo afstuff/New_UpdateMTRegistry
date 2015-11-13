@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="UpdateNIID.Model" namespace="UpdateNIID.Model">
+  <class name="MotorDetailsOnline" table="NIID_MotorDetails_Online">
+    <id name="mId" column="NIID_NO">
+      <generator class="identity"  />
+
+    </id>
+    <property name="Username" column="NIID_Username" length="25" />
+    <property name="Password" column="NIID_Password" length="25" />
+    <property name="NiaNaicomID" column="NIID_NiaNaicomID" length="30" />
+    <property name="PolicyNo" column="NIID_PolicyNo" length="100" />
+    <property name="InsuredName" column="NIID_InsuredName" length="150" />
+    <property name="ContactAddress" column="NIID_ContactAddress" length="250" />
+    <property name="GSMNo" column="NIID_GSMNo" length="50" />
+    <property name="Email" column="NIID_Email" length="150" />
+    <property name="EffectiveCoverDate" column="NIID_EffectiveCoverDate" length="25" />
+    <property name="ExpirationDate" column="NIID_ExpirationDate" length="25" />
+    <property name="TypeOfCover" column="NIID_TypeOfCover" length="50" />
+    <property name="VehicleCategory" column="NIID_VehicleCategory" length="30" />
+    <property name="EngineNo" column="NIID_EngineNo" length="150" />
+    <property name="ChasisNo" column="NIID_ChasisNo" length="150" />
+    <property name="VehicleColor" column="NIID_VehicleColor" length="15" />
+    <property name="YearofMake" column="NIID_YearofMake" length="5" />
+    <property name="VehicleMake" column="NIID_VehicleMake" length="150" />
+    <property name="RegistrationNo" column="NIID_RegistrationNo" length="12" />
+    <property name="VehicleType" column="NIID_VehicleType" length="150" />
+    <property name="EngineCapacity" column="NIID_EngineCapacity" length="10" />
+    <property name="VehicleModel" column="NIID_VehicleModel" length="25" />
+    <property name="SumAssured" column="NIID_SumAssured" type="Double"  />
+    <property name="Premium" column="NIID_Premium" type="Double" />
+    <property name="CoverNoteNo" column="NIID_CoverNoteNo" length="15" />
+    <property name="CertificateNo" column="NIID_CertificateNo" length="10" />
+    <property name="GeographicalZone" column="NIID_GeographicalZone" length="15" />
+    <property name="Status" column="NIID_Status" length="1" />
+    <property name="ReturnMessage" column="NIID_ReturnMessage" length="250" />
+    <property name="ProcessDate" column="NIID_ProcessDate" type="datetime" />
+    <property name="UploadDate" column="NIID_UploadDate" type="date" />
+
+  </class>
+</hibernate-mapping>
