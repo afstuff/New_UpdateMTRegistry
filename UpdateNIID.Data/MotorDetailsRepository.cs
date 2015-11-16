@@ -99,6 +99,8 @@ namespace UpdateNIID.Data
         {
 
         }
+
+
         public void createSchema()
         {
             SessionProvider.RebuildSchema();
@@ -137,28 +139,33 @@ namespace UpdateNIID.Data
         public DataTable GetMotorDetailsDt(string startDate, string endDate, int filter, string sValue)
         {
             string query;
+            query = "SELECT * "
+                          + "FROM NIID_MotorDetails_Online where (NIID_Status <> 'X' ) ";
+
+
             if (filter == 1)
             {
 
-                query = "SELECT * FROM NIID_MotorDetails_Online where (NIID_InsuredName LIKE '%" + sValue + "%') AND (NIID_Status <> 'X') AND (NIID_UploadDate BETWEEN '" + startDate + "' AND '" + endDate + "') order by NIID_UploadDate desc";
+                query += "AND (NIID_InsuredName LIKE '%" + sValue + "%') ";
 
 
             }
             else if (filter == 2)
             {
 
-                query = "SELECT * FROM NIID_MotorDetails_Online where (NIID_PolicyNo LIKE '%" + sValue + "%') AND (NIID_Status <> 'X') AND (NIID_UploadDate BETWEEN '" + startDate + "' AND '" + endDate + "') order by NIID_UploadDate desc";
+                query += "AND (NIID_PolicyNo LIKE '%" + sValue + "%') ";
             }
             else if (filter == 3)
             {
-                query = "SELECT * FROM NIID_MotorDetails_Online where (NIID_RegistrationNo LIKE '%" + sValue + "%') AND (NIID_Status <> 'X' ) AND (NIID_UploadDate BETWEEN '" + startDate + "' AND '" + endDate + "') order by NIID_UploadDate desc";
+                query += "AND (NIID_RegistrationNo LIKE '%" + sValue + "%') ";
             }
-            else
+            else if (filter == 0)
             {
-                query = "SELECT * FROM NIID_MotorDetails_Online where (NIID_Status <> 'X') AND (NIID_UploadDate BETWEEN '" + startDate + "' AND '" + endDate + "') order by NIID_UploadDate desc";
+                query = "SELECT * "
+                          + "FROM NIID_MotorDetails_Online where (NIID_Status <> 'X' ) ";
             }
 
-
+            query += " AND (NIID_UploadDate BETWEEN '" + startDate + "' AND '" + endDate + "') order by NIID_UploadDate desc";
             return GetDataTable(query);
         }
 
