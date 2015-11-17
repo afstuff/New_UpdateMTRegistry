@@ -13,7 +13,8 @@ namespace UpdateNIID.Web
     {
         MotorDetailsRepository motorsRepo = new MotorDetailsRepository();
         private DataTable _dt = null;
-
+        private string _startDate;
+        private string _endDate;
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -58,9 +59,22 @@ namespace UpdateNIID.Web
 
         protected void DoSearch(object sender, EventArgs e)
         {
+
+
             if (Convert.ToInt16(filterDdw.SelectedValue) == 0 && txtSvalue.Text == "")
             {
                 txtSvalue.Text = "All";
+            }
+
+            if (txtStartDate.Text == "" || txtEndDate.Text == "")
+            {
+                txtStartDate.Text = "01/01/1900";
+                txtEndDate.Text = "01/01/3000";
+            }
+           
+            if (txtSvalue.Text == "")
+            {
+                txtSvalue.Text = "*";
             }
 
             if (txtStartDate.Text != "" && txtEndDate.Text != "" && txtSvalue.Text != "")
@@ -71,9 +85,13 @@ namespace UpdateNIID.Web
                 {
                     //count posted and uploaded records
                     DoCount(_dt);
+                    GridView1.DataSource = null;
                     GridView1.DataSource = _dt;
                     GridView1.DataBind();
                 }
+
+                //txtStartDate.Text = "";
+                //txtEndDate.Text = "";
             }
         }
 

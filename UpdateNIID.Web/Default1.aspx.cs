@@ -79,25 +79,39 @@ namespace UpdateNIID.Web
 
         protected void DoSearch(object sender, EventArgs e)
         {
+
+
             if (Convert.ToInt16(filterDdw.SelectedValue) == 0 && txtSvalue.Text == "")
             {
                 txtSvalue.Text = "All";
+            }
+
+            if (txtStartDate.Text == "" || txtEndDate.Text == "")
+            {
+                txtStartDate.Text = "01/01/1900";
+                txtEndDate.Text = "01/01/3000";
+            }
+
+            if (txtSvalue.Text == "")
+            {
+                txtSvalue.Text = "*";
             }
 
             if (txtStartDate.Text != "" && txtEndDate.Text != "" && txtSvalue.Text != "")
             {
                 _dt = new DataTable();
                 _dt = motorsRepo.GetMotorDetailsDt(CheckDate(txtStartDate.Text), CheckDate(txtEndDate.Text), Convert.ToInt16(filterDdw.SelectedValue), txtSvalue.Text);
-
-                int cU = 0;
-                int cP = 0;
                 if (_dt != null)
                 {
+                    //count posted and uploaded records
                     DoCount(_dt);
+                    GridView1.DataSource = null;
                     GridView1.DataSource = _dt;
                     GridView1.DataBind();
-                    //GridView1.Columns[1].Visible = false;
                 }
+
+                //txtStartDate.Text = "";
+                //txtEndDate.Text = "";
             }
         }
 

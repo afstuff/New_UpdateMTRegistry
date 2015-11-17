@@ -138,9 +138,15 @@ namespace UpdateNIID.Data
 
         public DataTable GetMotorDetailsDt(string startDate, string endDate, int filter, string sValue)
         {
-            string query;
+            string query, query1;
+
+            if (sValue == "*")
+            {
+
+            }
+
             query = "SELECT * "
-                          + "FROM NIID_MotorDetails_Online where (NIID_Status <> 'X' ) ";
+                          + "FROM NIID_MotorDetails_Online where (NIID_Status <> 'X') ";
 
 
             if (filter == 1)
@@ -161,11 +167,19 @@ namespace UpdateNIID.Data
             }
             else if (filter == 0)
             {
-                query = "SELECT * "
-                          + "FROM NIID_MotorDetails_Online where (NIID_Status <> 'X' ) ";
+                query += "";
             }
 
-            query += " AND (NIID_UploadDate BETWEEN '" + startDate + "' AND '" + endDate + "') order by NIID_UploadDate desc";
+            if (startDate == "1/1/1700 12:00:00 AM")
+            {
+                query += " order by NIID_UploadDate desc";
+
+            }
+            else
+            {
+                query += " AND (NIID_UploadDate BETWEEN '" + startDate + "' AND '" + endDate + "') order by NIID_UploadDate desc";
+            }
+
             return GetDataTable(query);
         }
 
