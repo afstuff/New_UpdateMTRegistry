@@ -58,32 +58,43 @@ namespace UpdateNIID.Web
 
         protected void DoSearch(object sender, EventArgs e)
         {
+            if (Convert.ToInt16(filterDdw.SelectedValue) == 0 && txtSvalue.Text == "")
+            {
+                txtSvalue.Text = "All";
+            }
+
             if (txtStartDate.Text != "" && txtEndDate.Text != "" && txtSvalue.Text != "")
             {
                 _dt = new DataTable();
                 _dt = motorsRepo.GetMotorDetailsDt(CheckDate(txtStartDate.Text), CheckDate(txtEndDate.Text), Convert.ToInt16(filterDdw.SelectedValue), txtSvalue.Text);
-
-                int cU = 0;
-                int cP = 0;
                 if (_dt != null)
                 {
-                    cP = _dt.Rows.Count;
-                    lblPosted.Text = cP.ToString();
-                    foreach (DataRow row in _dt.Rows)
-                    {
-                        var cUText = row["NIID_Status"].ToString();
-                        if (cUText == "P")
-                        {
-                            cU++;
-                        }
-                    }
-                    lblUploaded.Text = cU.ToString();
-
-
+                    //count posted and uploaded records
+                    DoCount(_dt);
                     GridView1.DataSource = _dt;
                     GridView1.DataBind();
-                    //GridView1.Columns[1].Visible = false;
                 }
+            }
+        }
+
+        //count posted and uploaded records
+        public void DoCount(DataTable dt)
+        {
+            int cU = 0;
+            int cP = 0;
+            if (dt != null)
+            {
+                cP = _dt.Rows.Count;
+                lblPosted.Text = cP.ToString();
+                foreach (DataRow row in _dt.Rows)
+                {
+                    var cUText = row["NIID_Status"].ToString();
+                    if (cUText == "P")
+                    {
+                        cU++;
+                    }
+                }
+                lblUploaded.Text = cU.ToString();
             }
         }
 
@@ -119,11 +130,10 @@ namespace UpdateNIID.Web
             _dt = new DataTable();
             _dt = motorsRepo.GetMotorDetailsDt(sDate, eDate, filter, sValue);
 
-            int cU = 0;
-            int cP = 0;
 
             if (_dt != null)
             {
+                DoCount(_dt);
                 GridView1.DataSource = _dt;
                 GridView1.DataBind();
                 //GridView1.Columns[1].Visible = false;
@@ -135,28 +145,14 @@ namespace UpdateNIID.Web
             _dt = new DataTable();
             _dt = motorsRepo.GetMotorDetailsAllDt();
 
-            int cU = 0;
-            int cP = 0;
-
             if (_dt != null)
             {
-                cP = _dt.Rows.Count;
-                lblPosted.Text = cP.ToString();
-                foreach (DataRow row in _dt.Rows)
-                {
-                    var cUText = row["NIID_Status"].ToString();
-                    if (cUText == "P")
-                    {
-                        cU++;
-                    }
-                }
-                lblUploaded.Text = cU.ToString();
-
-
+                //count posted and uploaded
+                DoCount(_dt);
                 GridView1.DataSource = _dt;
                 GridView1.DataBind();
-                //GridView1.Columns[1].Visible = false;
             }
+
         }
 
         protected void GridView1_RowDataBound(object sender, GridViewRowEventArgs e)

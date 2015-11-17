@@ -59,7 +59,7 @@
                         Filter Options:
                         </asp:Label>
                         <asp:DropDownList CssClass="form-control" ID="filterDdw" runat="server" Style="width: 150px !important;">
-                            <asp:ListItem>-- Select --</asp:ListItem>
+                            <asp:ListItem Value="0">All</asp:ListItem>
                             <asp:ListItem Value="1">Insured Name</asp:ListItem>
                             <asp:ListItem Value="2">Policy Number</asp:ListItem>
                             <asp:ListItem Value="3">Vehicle Number</asp:ListItem>
@@ -99,7 +99,7 @@
                             <Columns>
                                 <asp:TemplateField>
                                     <ItemTemplate>
-                                        <asp:CheckBox ID="chkSel" runat="server" Style="margin: 10px!important;"></asp:CheckBox>
+                                        <asp:CheckBox ID="chkSel" Visible="False" runat="server" Style="margin: 10px!important;"></asp:CheckBox>
                                         <%-- </ItemTemplate>
                                     <ItemTemplate>--%>
                                         <asp:HiddenField ID="Id_No" Value='<%# Eval("NIID_NO") %>' runat="server" />
@@ -135,7 +135,7 @@
             </div>
             <br />
             <div class="row">
-                <asp:Button runat="server" ID="uploadBtn" Text="Update" CssClass="btn btn-danger btn-sm pull-right" Style="margin-right: 0 !important;" OnClick="DoUpdate" />
+                <asp:Button runat="server" Visible="False" ID="uploadBtn" Text="Update" CssClass="btn btn-danger btn-sm pull-right" Style="margin-right: 0 !important;" OnClick="DoUpdate" />
             </div>
         </div>
 

@@ -59,7 +59,7 @@
                         Filter Options:
                         </asp:Label>
                         <asp:DropDownList CssClass="form-control" ID="filterDdw" runat="server" Style="width: 150px !important;">
-                            <asp:ListItem>-- Select --</asp:ListItem>
+                            <asp:ListItem Value="0">All</asp:ListItem>
                             <asp:ListItem Value="1">Insured Name</asp:ListItem>
                             <asp:ListItem Value="2">Policy Number</asp:ListItem>
                             <asp:ListItem Value="3">Vehicle Number</asp:ListItem>

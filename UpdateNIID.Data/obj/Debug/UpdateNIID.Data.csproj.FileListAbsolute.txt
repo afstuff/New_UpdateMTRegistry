@@ -18,3 +18,12 @@ C:\AFRIK\UpdateMTRegistry\UpdateNIID.Data\bin\Debug\UpdateNIID.Repositories.pdb
 C:\AFRIK\UpdateMTRegistry\UpdateNIID.Data\obj\Debug\UpdateNIID.Data.csprojResolveAssemblyReference.cache
 C:\AFRIK\UpdateMTRegistry\UpdateNIID.Data\obj\Debug\UpdateNIID.Data.dll
 C:\AFRIK\UpdateMTRegistry\UpdateNIID.Data\obj\Debug\UpdateNIID.Data.pdb
+C:\AFRIK\New_UpdateMTRegistry\UpdateNIID.Data\bin\Debug\UpdateNIID.Data.dll
+C:\AFRIK\New_UpdateMTRegistry\UpdateNIID.Data\bin\Debug\UpdateNIID.Data.pdb
+C:\AFRIK\New_UpdateMTRegistry\UpdateNIID.Data\bin\Debug\UpdateNIID.Model.dll
+C:\AFRIK\New_UpdateMTRegistry\UpdateNIID.Data\bin\Debug\UpdateNIID.Repositories.dll
+C:\AFRIK\New_UpdateMTRegistry\UpdateNIID.Data\bin\Debug\UpdateNIID.Model.pdb
+C:\AFRIK\New_UpdateMTRegistry\UpdateNIID.Data\bin\Debug\UpdateNIID.Repositories.pdb
+C:\AFRIK\New_UpdateMTRegistry\UpdateNIID.Data\obj\Debug\UpdateNIID.Data.csprojResolveAssemblyReference.cache
+C:\AFRIK\New_UpdateMTRegistry\UpdateNIID.Data\obj\Debug\UpdateNIID.Data.dll
+C:\AFRIK\New_UpdateMTRegistry\UpdateNIID.Data\obj\Debug\UpdateNIID.Data.pdb
