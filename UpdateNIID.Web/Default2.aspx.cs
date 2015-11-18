@@ -63,7 +63,7 @@ namespace UpdateNIID.Web
 
             if (Convert.ToInt16(filterDdw.SelectedValue) == 0 && txtSvalue.Text == "")
             {
-                txtSvalue.Text = "All";
+                txtSvalue.Text = "*";
             }
 
             if (txtStartDate.Text == "" || txtEndDate.Text == "")
